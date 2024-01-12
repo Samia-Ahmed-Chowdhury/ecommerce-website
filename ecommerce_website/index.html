@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>BackDev</title>
+
+    <!-- favicon -->
+    <link href="img/favicon_icon.svg" type="image/png" rel="icon">
+
+    <!-- all css here -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- -------nav starts------  -->
+    <header >
+       <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="img/Logo.svg">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+
+                  
+                    <div class="dropdown">
+                        <li class="dropbtn">Our expertise
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" stroke="#475467" stroke-width="1.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li class="dropbtn">Project
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                fill="none">
+                                <path d="M5 7.5L10 12.5L15 7.5" stroke="#475467" stroke-width="1.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+
+                </ul>
+                <ul>
+                    <button class="nav_btn">Sign up</button>
+                </ul>
+            </div>
+            <!-- hamburger-menu -->
+            <button class="hamburger-menu" type="button" id="hamburger-menu">
+                <label>
+                    <input class="toggle_btn" type="checkbox" id="toggle_btn" onclick="show_silde()">
+                    <div class="toggle">
+                        <span class="top_line common"></span>
+                        <span class="mid_line common"></span>
+                        <span class="end_line common"></span>
+                    </div>
+                </label>
+            </button>
+        </nav>
+       </div>
+
+        <div class="slide" id="slide">
+            <ul class="slide_nav">
+                <li>Home</li>
+                <li>About</li>
+
+                <div>
+                    <div class="accordion">
+                        <li class="dropbtn">Our expertise
+                            <svg id="add" xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                            <svg id="sub" xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                            </svg>
+                        </li>
+                    </div>
+                    <div class="panel">
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                    </div>
+                </div>
+                <div>
+                    <div class="accordion">
+                        <li class="dropbtn">Project
+                            <svg id="add" xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                            <svg id="sub" xmlns="http://www.w3.org/2000/svg" fill="none" width="16" height="16"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
+                            </svg>
+                        </li>
+                    </div>
+                    <div class="panel">
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                        <li>Link 3</li>
+                    </div>
+                </div>
+
+
+
+
+
+                <button class="nav_btn">Sign up</button>
+
+
+            </ul>
+        </div>
+    </header>
+    <!-- -------nav ends------  -->
+
+
+    <!-- -------hero starts------  -->
+    <section class="hero_section">
+        <div class="container container_lg">
+            <h1>Empower Your Website with Our Back End Development Expertise!</h1>
+            <button class="hero_btn">Get in Touch
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#FEF8F0" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- -------hero ends------  -->
+
+    <!-- -------sponsor starts------ -->
+    <section class="sponsor container container_lg">
+        <p>Join 100+ companies already growing</p>
+
+        <div class="sponsor_container">
+            <div class="company_logo1">
+                <img src="img/com_logo1.png" />
+            </div>
+            <div class="company_logo2">
+                <img src="img/com_logo2.png" />
+            </div>
+            <div class="company_logo3">
+                <img src="img/com_logo3.png" />
+            </div>
+            <div class="company_logo4">
+                <img src="img/com_logo4.png" />
+            </div>
+            <div class="company_logo5">
+                <img src="img/com_logo5.png" />
+            </div>
+            <div class="company_logo6">
+                <img src="img/com_logo6.png" />
+            </div>
+        </div>
+    </section>
+
+    <!-- -------sponsor ends------ -->
+    <!-- -------feature section starts------ -->
+   <section class="feature_section">
+        <div class="feature_container container container_lg">
+            <div class="feature_box">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M6.09436 11.2288C6.03221 10.8282 5.99996 10.4179 5.99996 10C5.99996 5.58172 9.60525 2 14.0526 2C18.4999 2 22.1052 5.58172 22.1052 10C22.1052 10.9981 21.9213 11.9535 21.5852 12.8345C21.5154 13.0175 21.4804 13.109 21.4646 13.1804C21.4489 13.2512 21.4428 13.301 21.4411 13.3735C21.4394 13.4466 21.4493 13.5272 21.4692 13.6883L21.8717 16.9585C21.9153 17.3125 21.9371 17.4895 21.8782 17.6182C21.8266 17.731 21.735 17.8205 21.6211 17.8695C21.4911 17.9254 21.3146 17.8995 20.9617 17.8478L17.7765 17.3809C17.6101 17.3565 17.527 17.3443 17.4512 17.3448C17.3763 17.3452 17.3245 17.3507 17.2511 17.3661C17.177 17.3817 17.0823 17.4172 16.893 17.4881C16.0097 17.819 15.0524 18 14.0526 18C13.6344 18 13.2237 17.9683 12.8227 17.9073M7.63158 22C10.5965 22 13 19.5376 13 16.5C13 13.4624 10.5965 11 7.63158 11C4.66668 11 2.26316 13.4624 2.26316 16.5C2.26316 17.1106 2.36028 17.6979 2.53955 18.2467C2.61533 18.4787 2.65322 18.5947 2.66566 18.6739C2.67864 18.7567 2.68091 18.8031 2.67608 18.8867C2.67145 18.9668 2.65141 19.0573 2.61134 19.2383L2 22L4.9948 21.591C5.15827 21.5687 5.24 21.5575 5.31137 21.558C5.38652 21.5585 5.42641 21.5626 5.50011 21.5773C5.5701 21.5912 5.67416 21.6279 5.88227 21.7014C6.43059 21.8949 7.01911 22 7.63158 22Z"
+                            stroke="#357CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <h4 class="feature_text">benefice 1</h4>
+                <p class="feature_subtext">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on
+                    the
+                    same page and in the loop.</p>
+            </div>
+            <div class="feature_box">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M6.09436 11.2288C6.03221 10.8282 5.99996 10.4179 5.99996 10C5.99996 5.58172 9.60525 2 14.0526 2C18.4999 2 22.1052 5.58172 22.1052 10C22.1052 10.9981 21.9213 11.9535 21.5852 12.8345C21.5154 13.0175 21.4804 13.109 21.4646 13.1804C21.4489 13.2512 21.4428 13.301 21.4411 13.3735C21.4394 13.4466 21.4493 13.5272 21.4692 13.6883L21.8717 16.9585C21.9153 17.3125 21.9371 17.4895 21.8782 17.6182C21.8266 17.731 21.735 17.8205 21.6211 17.8695C21.4911 17.9254 21.3146 17.8995 20.9617 17.8478L17.7765 17.3809C17.6101 17.3565 17.527 17.3443 17.4512 17.3448C17.3763 17.3452 17.3245 17.3507 17.2511 17.3661C17.177 17.3817 17.0823 17.4172 16.893 17.4881C16.0097 17.819 15.0524 18 14.0526 18C13.6344 18 13.2237 17.9683 12.8227 17.9073M7.63158 22C10.5965 22 13 19.5376 13 16.5C13 13.4624 10.5965 11 7.63158 11C4.66668 11 2.26316 13.4624 2.26316 16.5C2.26316 17.1106 2.36028 17.6979 2.53955 18.2467C2.61533 18.4787 2.65322 18.5947 2.66566 18.6739C2.67864 18.7567 2.68091 18.8031 2.67608 18.8867C2.67145 18.9668 2.65141 19.0573 2.61134 19.2383L2 22L4.9948 21.591C5.15827 21.5687 5.24 21.5575 5.31137 21.558C5.38652 21.5585 5.42641 21.5626 5.50011 21.5773C5.5701 21.5912 5.67416 21.6279 5.88227 21.7014C6.43059 21.8949 7.01911 22 7.63158 22Z"
+                            stroke="#357CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <h4 class="feature_text">benefice 1</h4>
+                <p class="feature_subtext">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on
+                    the
+                    same page and in the loop.</p>
+            </div>
+            <div class="feature_box">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M6.09436 11.2288C6.03221 10.8282 5.99996 10.4179 5.99996 10C5.99996 5.58172 9.60525 2 14.0526 2C18.4999 2 22.1052 5.58172 22.1052 10C22.1052 10.9981 21.9213 11.9535 21.5852 12.8345C21.5154 13.0175 21.4804 13.109 21.4646 13.1804C21.4489 13.2512 21.4428 13.301 21.4411 13.3735C21.4394 13.4466 21.4493 13.5272 21.4692 13.6883L21.8717 16.9585C21.9153 17.3125 21.9371 17.4895 21.8782 17.6182C21.8266 17.731 21.735 17.8205 21.6211 17.8695C21.4911 17.9254 21.3146 17.8995 20.9617 17.8478L17.7765 17.3809C17.6101 17.3565 17.527 17.3443 17.4512 17.3448C17.3763 17.3452 17.3245 17.3507 17.2511 17.3661C17.177 17.3817 17.0823 17.4172 16.893 17.4881C16.0097 17.819 15.0524 18 14.0526 18C13.6344 18 13.2237 17.9683 12.8227 17.9073M7.63158 22C10.5965 22 13 19.5376 13 16.5C13 13.4624 10.5965 11 7.63158 11C4.66668 11 2.26316 13.4624 2.26316 16.5C2.26316 17.1106 2.36028 17.6979 2.53955 18.2467C2.61533 18.4787 2.65322 18.5947 2.66566 18.6739C2.67864 18.7567 2.68091 18.8031 2.67608 18.8867C2.67145 18.9668 2.65141 19.0573 2.61134 19.2383L2 22L4.9948 21.591C5.15827 21.5687 5.24 21.5575 5.31137 21.558C5.38652 21.5585 5.42641 21.5626 5.50011 21.5773C5.5701 21.5912 5.67416 21.6279 5.88227 21.7014C6.43059 21.8949 7.01911 22 7.63158 22Z"
+                            stroke="#357CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <h4 class="feature_text">benefice 1</h4>
+                <p class="feature_subtext">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on
+                    the
+                    same page and in the loop.</p>
+            </div>
+        </div>
+    </section> 
+
+    <!-- -------feature section ends------ -->
+    <!-- -------ex project section starts------ -->
+
+    <!-- <section class="project_section">
+        <div class="project_section_header">
+            <h2>Example project</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
+                Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.</p>
+        </div>
+        <div class="owl-carousel project_carousel">
+           <div class="project_box">
+                <img src="img/p_img2.jpg">
+                <div class="project_box_right_side">
+                    <h3>Share team inboxes</h3>
+                    <h6>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and
+                        in
+                        the loop.</h6>
+                    <ul>
+                        <li>
+                            <span> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                    fill="none">
+                                    <path
+                                        d="M8.75 14L12.25 17.5L19.25 10.5M25.6667 14C25.6667 20.4433 20.4433 25.6667 14 25.6667C7.55667 25.6667 2.33333 20.4433 2.33333 14C2.33333 7.55669 7.55667 2.33334 14 2.33334C20.4433 2.33334 25.6667 7.55669 25.6667 14Z"
+                                        stroke="#267880" stroke-width="2.33333" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <span> Leverage automation to move fast</span>
+                        </li>
+                        <li>
+                            <span> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                    fill="none">
+                                    <path
+                                        d="M8.75 14L12.25 17.5L19.25 10.5M25.6667 14C25.6667 20.4433 20.4433 25.6667 14 25.6667C7.55667 25.6667 2.33333 20.4433 2.33333 14C2.33333 7.55669 7.55667 2.33334 14 2.33334C20.4433 2.33334 25.6667 7.55669 25.6667 14Z"
+                                        stroke="#267880" stroke-width="2.33333" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <span> Always give customers a human to chat to</span>
+                        </li>
+                        <li>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                    fill="none">
+                                    <path
+                                        d="M8.75 14L12.25 17.5L19.25 10.5M25.6667 14C25.6667 20.4433 20.4433 25.6667 14 25.6667C7.55667 25.6667 2.33333 20.4433 2.33333 14C2.33333 7.55669 7.55667 2.33334 14 2.33334C20.4433 2.33334 25.6667 7.55669 25.6667 14Z"
+                                        stroke="#267880" stroke-width="2.33333" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <span> Automate customer support and close leads faster</span>
+                        </li>
+                    </ul>
+
+                    <button class="hero_btn">Get in Touch
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#FEF8F0" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div> 
+            <div class="project_box">
+
+                <video controls>
+                    <source src="videoplayback.mp4" type="video/mp4" />
+                    Sorry, your browser doesn't support videos.
+                </video>
+
+                <div class="project_box_right_side">
+                    <h3>Share team inboxes</h3>
+                    <h6>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and
+                        in
+                        the loop.</h6>
+
+
+                    <button class="hero_btn">Get in Touch
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#FEF8F0" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="project_box">
+                <img class="p_img3" src="img/p_img3.jpg">
+                <div class="project_box_right_side">
+                    <h3>Share team inboxes</h3>
+                    <h6>Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and
+                        in
+                        the loop.</h6>
+                    <ul>
+                        <li>
+                            <span> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                    fill="none">
+                                    <path
+                                        d="M8.75 14L12.25 17.5L19.25 10.5M25.6667 14C25.6667 20.4433 20.4433 25.6667 14 25.6667C7.55667 25.6667 2.33333 20.4433 2.33333 14C2.33333 7.55669 7.55667 2.33334 14 2.33334C20.4433 2.33334 25.6667 7.55669 25.6667 14Z"
+                                        stroke="#267880" stroke-width="2.33333" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <span> Leverage automation to move fast</span>
+                        </li>
+                        <li>
+                            <span> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                    fill="none">
+                                    <path
+                                        d="M8.75 14L12.25 17.5L19.25 10.5M25.6667 14C25.6667 20.4433 20.4433 25.6667 14 25.6667C7.55667 25.6667 2.33333 20.4433 2.33333 14C2.33333 7.55669 7.55667 2.33334 14 2.33334C20.4433 2.33334 25.6667 7.55669 25.6667 14Z"
+                                        stroke="#267880" stroke-width="2.33333" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <span> Always give customers a human to chat to</span>
+                        </li>
+                        <li>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                    fill="none">
+                                    <path
+                                        d="M8.75 14L12.25 17.5L19.25 10.5M25.6667 14C25.6667 20.4433 20.4433 25.6667 14 25.6667C7.55667 25.6667 2.33333 20.4433 2.33333 14C2.33333 7.55669 7.55667 2.33334 14 2.33334C20.4433 2.33334 25.6667 7.55669 25.6667 14Z"
+                                        stroke="#267880" stroke-width="2.33333" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <span> Automate customer support and close leads faster</span>
+                        </li>
+                    </ul>
+
+                    <button class="hero_btn">Get in Touch
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#FEF8F0" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section> -->
+
+    <!-- -------ex project section ends------ -->
+    <!-- -------cta section starts------ -->
+
+    <!-- <section class="cta_section">
+        <div class="cta_section_left">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+            <p>Start your 30-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                hendrerit urna free trial today.</p>
+            <div class="cta_btns">
+                <button class="cta_outline_btn">Learn more</button>
+                <button class="cta_btn">Get started</button>
+            </div>
+        </div>
+        <img src="img/Content.png" />
+
+    </section> -->
+
+    <!-- -------cta section ends------ -->
+    <!-- -------expertise section starts------ -->
+
+    <!-- <section class="expertise_section">
+        <div class="project_section_header">
+            <h2>Our Expertise</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
+                Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.</p>
+        </div>
+
+        <div class="owl-carousel expertise_carousel owl-rtl owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage"
+                    style="transform: translate3d(6725px, 0px, 0px); transition: all 0s ease 0s; width: 10760px;">
+                    <div class="owl-item cloned">
+                        <div class="expertise_silder">
+                            <img src="img/expertise_img1.png">
+                        </div>
+                    </div>
+                    <div class="owl-item cloned ">
+                        <div class="expertise_silder">
+                            <img src="img/expertise_img2.png">
+                        </div>
+                    </div>
+                    <div class="owl-item cloned active">
+                        <div class="expertise_silder">
+                            <img src="img/expertise_img3.png">
+                        </div>
+                    </div>
+                    <div class="owl-item cloned">
+                        <div class="expertise_silder">
+                            <img src="img/expertise_img2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my_owl-nav">
+                <button type="button" role="presentation" class="my_owl-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M17.8569 10.8904H5.85693M5.85693 10.8904L11.8569 16.8904M5.85693 10.8904L11.8569 4.89038"
+                            stroke="#4595E6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+    
+                </button>
+                <button type="button" role="presentation" class="my_owl-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M4.14307 10.8904H16.1431M16.1431 10.8904L10.1431 16.8904M16.1431 10.8904L10.1431 4.89038"
+                            stroke="#4595E6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+     
+        <div class="owl_content">
+            <div class="owl_content_box owl_content_box_1">
+                <h5 class="owl_content_text">Web & Mobile Mastery</h5>
+                <p class="owl_content_subtext">Optimized,Adaptable designs.</p>
+                <button class="owl_content_btn">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4.16666 9.99996H15.8333M15.8333 9.99996L9.99999 4.16663M15.8333 9.99996L9.99999 15.8333" stroke="#2C67C9" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="owl_content_box owl_content_box_2">
+                <h5 class="owl_content_text">CRO & A/B Testing</h5>
+                <p class="owl_content_subtext">Data-driven conversion tactics.</p>
+                <button class="owl_content_btn">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4.16666 9.99996H15.8333M15.8333 9.99996L9.99999 4.16663M15.8333 9.99996L9.99999 15.8333" stroke="#2C67C9" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="owl_content_box owl_content_box_3">
+                <h5 class="owl_content_text">AWS Cloud Solutions</h5>
+                <p class="owl_content_subtext">Scalable, robuste infrastructure</p>
+                <button class="owl_content_btn">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4.16666 9.99996H15.8333M15.8333 9.99996L9.99999 4.16663M15.8333 9.99996L9.99999 15.8333" stroke="#2C67C9" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </button>
+            </div>
+            <div class="owl_content_box owl_content_box_4">
+                <h5 class="owl_content_text">Full-Spectrum App Dev</h5>
+                <p class="owl_content_subtext">From ideo to execution</p>
+                <button class="owl_content_btn">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4.16666 9.99996H15.8333M15.8333 9.99996L9.99999 4.16663M15.8333 9.99996L9.99999 15.8333" stroke="#2C67C9" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </button>
+            </div>
+        </div>
+    </section> -->
+    <!-- -------expertise section ends------ -->
+
+
+
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
